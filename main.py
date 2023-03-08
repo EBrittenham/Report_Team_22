@@ -12,6 +12,12 @@ def encode(password):
 		string += str(new)
 	return string
 
+def decode(password):
+	string = ''
+	for i in password:
+		new = (int(i) + 7) % 10
+		string += str(new)
+	return string
 
 def main():
 	choice = 0

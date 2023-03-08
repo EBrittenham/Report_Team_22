@@ -1,3 +1,5 @@
+# group 22: Mason Cervi, Emma Brittenham
+# this is Emma's code
 def menu():
 	print('Menu')
 	print('1. Encode')

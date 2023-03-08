@@ -23,7 +23,7 @@ def main():
 	choice = 0
 	while choice != 3:
 		menu()
-		choice = int(input('Please enter an option'))
+		choice = int(input('Please enter an option: '))
 		if choice == 1:
 			password = input('Please enter your password to encode: ')
 			encoded_pass = encode(password)

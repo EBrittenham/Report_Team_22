@@ -4,8 +4,7 @@ def menu():
 	print('Menu')
 	print('1. Encode')
 	print('2. Decode')
-	print('3. Quit')
-
+	print('3. Quit\n')
 
 def encode(password):
 	string = ''
@@ -34,7 +33,6 @@ def main():
 		elif choice == 2:
 			print(f'The encoded password is {encoded_pass}, the original password is {decode(encoded_pass)}.\n')
 			continue
-
 
 if __name__ == '__main__':
 	main()
